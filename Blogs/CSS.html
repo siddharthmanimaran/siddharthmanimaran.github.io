@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Blog</title>
+  </head>
+
+  <body>
+    <div class="main-content">
+      <h1>CSS-Cascading Style Sheets</h1>
+
+      <div class="one">
+        <h3>What is CSS?</h3>
+        <p>
+          CSS is a language for describing the presentation of Web pages CSS
+          stands for Cascading Style Sheets. its includes colours, layout, and
+          fonts. CSS is officially published on 12May 1998.
+        </p>
+      </div>
+      <div class="two">
+        <h3>Ways to Write CSS:</h3>
+        <p>
+          there are 3 ways to write a CSS in out HTML document. 1.inline CSS
+          2.Internal CSS 3.External CSS
+        </p>
+        <h3>What is Inline CSS?</h3>
+        <p>
+          This is the old way to use the styles writing a CSS inside the HTML
+          tags is called Inline CSS. Example:
+          <code>&lt;h1 style="color: blue"&gt;siddharth&lt;/style&gt;</code>
+        </p>
+
+        <h3>What is Internal CSS?</h3>
+        <p>
+          Internal CSS is nothing but using CSS with the help of
+          <code>&lt;style&gt;</code>tag. We can use this inside the HTML
+          document. Example:
+          <code>&lt;style&gt; h1 { color: blue; } &lt;/style&gt;</code>
+        </p>
+        <h3>What is External CSS?</h3>
+        <p>
+          External CSS is use with the help of <code>&lt;link /&gt;</code> tag
+          in the head of HTML and the file must be in .css extension
+          Example:<code
+            >&lt;head&gt; &lt;link link rel="stylesheet" type="text/css"
+            href="style.css" /&gt; &lt;/head&gt;</code
+          >
+        </p>
+      </div>
+      <div class="three">
+        <h3>CSS Selector:</h3>
+        <p>
+          CSS selector is used to find the element. Element Selector:The element
+          selector selects HTML elements based on the element name. Example:
+          <code>p {color:red}</code>
+          1.ID Selector:The id selector uses the id attribute of an HTML element
+          to select a specific element. Example:
+          <code>#name {color:red}</code>
+          2.Class Selector:The class selector selects HTML elements with a
+          specific class attribute. Example:<code> .name {color:red}</code>
+        </p>
+      </div>
+
+      <div class="four">
+        <h3>CSS Colors:</h3>
+        <p>There are three major used color technique.</p>
+        <h3>RGB:</h3>
+        <p>
+          The 3 parameter basically correponds to red,green and blue. This
+          parameters vary from 0 to 255 Eg:RGB(0,0,255)
+        </p>
+
+        <h3>HEX:</h3>
+        <p>
+          Hex code starts with # Single set value can vary from 00 to 09 and AA
+          to FF Sets basically correspond to Red, Green, and Blue Eg:
+          <code>#ff0000 ; means color red</code>
+        </p>
+        <h3>RGBA:</h3>
+        <p>
+          The 4 parameter basically corresponds to red, green, blue and alpha
+          Value of the first three parameters may vary from 0 to 255 and the
+          last parameter ranges from 0 to 1 that is from 0.1 to 0.9 Eg:
+          <code>RGB(255,0,0,0)</code>
+        </p>
+      </div>
+
+      <div class="five">
+        <h3>CSS Background:</h3>
+        <p>
+          The CSS background properties are used to add background effects for
+          elements. Color – used to set the color of the background<br />
+          Image – used to set an image as the background<br />
+          Position – used to determine the position of the image<br />
+          Attachment – used controlling the mechanism of scrolling<br />
+          Repeat – used to determine if the image has to repeat or not<br />
+        </p>
+      </div>
+
+      <div class="six">
+        <h3>CSS Box Model:</h3>
+        <p>
+          CSS Box Model is a box that warps around every HTML element and its
+          consist of margins, borders, padding, and content. Content-The most
+          inner part is a our content<br />
+          Padding-the padding is nothing but the space between the content and
+          the border<br />
+          Border-border that goes around the padding and the content.<br />
+          Margin-margin is the area outside the border.<br />
+        </p>
+
+        <div class="six-one">
+          <h3>CSS Border:</h3>
+          <p>
+            CSS Border helps in setting up the border for HTML elements There
+            are 4 properties that can helps us to set a border: 1.width 2.style
+            3.color 4.radius And it can also be set in single line Eg:<code
+              >border: 5px solid blue;</code
+            >
+          </p>
+        </div>
+        <div class="six-two">
+          <h3>CSS Margin:</h3>
+          <p>
+            Margin properties are used to create a space around the elements.
+            With the help of margin we can change all four side margins
+            1.margin-top 2.margin-bottom 3.margin-left 4.margin-right Shorthand
+            example:<code>margin: 25px 50px 25px 50px</code>
+          </p>
+        </div>
+
+        <div class="six-three">
+          <h3>CSS Padding:</h3>
+          <p>
+            Padding is used to create space around an element content,inside of
+            any defined borders. With the help of padding we can change all four
+            side of the content inside the border. 1.padding-top 2.padding-right
+            3.padding-bottom 4.padding-left Shorthand Example:<code>
+              padding:25px 50px 25px 50px</code
+            >
+          </p>
+        </div>
+        <div class="six-four">
+          <h3>CSS Width and Height:</h3>
+          <p>
+            Height and Width is used to set the height and width of the element
+            content. With the help of these properties wwe can change the
+            content width and height. Example:<code
+              >width:200px; height:100px;</code
+            >
+          </p>
+        </div>
+      </div>
+
+      <div class="seven">
+        <h3>CSS Flex Box:</h3>
+        <p>
+          Flex Box is nothing but Flexible Box Module And its a efficent way to
+          layout,align and distribute space First we need to define flex
+          container .
+        </p>
+        <div class="seven-one">
+          <h3>Flex Container:</h3>
+          <p>
+            The flex container properties are flex-direction,
+            flex-wrap,flex-flow, justify-content, align-items and align-content.
+            display: its a type of box used for an HTML element. flex-direction:
+            The direction of the flexible items inside a flex container
+            flex-warp: The flex items should wrap or not. flex-flow: A shorthand
+            property for flex-direction and flex-warp. align-items: it will
+            align the flex item vertically align-content: It is similar to
+            align-item, but instead of aligning flex items, it aligns flex lines
+          </p>
+        </div>
+
+        <div class="seven-two">
+          <h3>Flex Item:</h3>
+          <p>
+            The child element of the container is called as flex item. The flex
+            item properties are order,flex-grow,flex-shrink,flex-basis,flex and
+            align-self order: Its a order of the flex items inside the same
+            container. align-self: Specifies the alignment for a flex item flex:
+            A shorthand property for the flex-grow, flex-shrink, and the
+            flex-basis properties flex-basis: Specifies the initial length of a
+            flex item flex-grow: Specifies how much a flex item will grow
+            relative to the rest of the flex items inside the same container
+            flex-shrink: Specifies how much a flex item will shrink relative to
+            the rest of the flex items inside the same container
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
