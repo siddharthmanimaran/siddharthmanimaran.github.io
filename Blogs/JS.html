@@ -1,349 +1,471 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JS-JavaScript</title>
+    <title>Document</title>
     <style>
-        table, th, td {
+        table,
+        th,
+        td {
             border: 1px solid black;
         }
+
         table {
             width: 50%;
             border-collapse: collapse;
             text-align: center;
         }
     </style>
-  </head>
-  <body>
+</head>
+
+<body>
     <div class="main-div">
-      <h1>JavaScript-JS</h1>
-      <div class="introduction">
-        <h3>What is JavaScript?</h3>
-        <p>
-          JavaScript is the most popular programming language for web .<br />
-          It is a scripting language and also is one of the core technologies of
-          the World Wide Web<br />
-          All major web browsers have a dedicated JavaScript engine to execute
-          the code on the user's device.<br />
-          JavaScript is one of three languages all web developers must learn
-          <br />
-          1.HTML-to define the content of the web page<br />
-          2.CSS-to specify the layout of web pages<br />
-          3.JavScript-to program the behavior of the web page<br />
-        </p>
-      </div>
-      <div class="dataTypes">
-        <h3>Data Types:</h3>
-        <p>
-            Data types is an important concept.Without data types, we cannot able to operate on variables<br>
-          In Javascript, there are three data types primitive data types,composite data types and trivial data types<br />
-          In primitive data types, there are three data types<br />
-          1.Strings<br />
-          2.Numbers<br />
-          3.Booleans<br />
-          In composite data types, there are two major data types<br />
-          1.Array<br />
-          2.Object<br />
-          In trivial data types, there are two major data types<br />
-          1.Null<br />
-          2.Undefined<br />
-        </p>
-        <p>  
+        <h1>JavaScript-JS</h1>
+        <div class="introduction">
+            <h3>What is JavaScript?</h3>
+            <p>
+                JavaScript is the most popular programming language for web .<br />
+                It is a scripting language and also is one of the core technologies of
+                the World Wide Web<br />
+                All major web browsers have a dedicated JavaScript engine to execute
+                the code on the user's device.<br />
+                JavaScript is one of three languages all web developers must learn
+                <br />
+                1.HTML-to define the content of the web page<br />
+                2.CSS-to specify the layout of web pages<br />
+                3.JavScript-to program the behavior of the web page<br />
+            </p>
+        </div>
+        <div class="dataTypes">
+            <h3>Data Types:</h3>
+            <p>
+                Data types is an important concept.Without data types, we cannot able to operate on variables<br>
+                In Javascript, there are three data types primitive data types,composite data types and trivial data
+                types<br />
+                In primitive data types, there are three data types<br />
+                1.Strings<br />
+                2.Numbers<br />
+                3.Booleans<br />
+                In composite data types, there are two major data types<br />
+                1.Array<br />
+                2.Object<br />
+                In trivial data types, there are two major data types<br />
+                1.Null<br />
+                2.Undefined<br />
+            </p>
+            <p>
             <h4>Strings</h4>
-                String is nothing but a "word or letters in english".<br />
-                It is a series of characters like "JavaScript"<br />
-                Strings are written with quotes. You can use single or double
-                quotes<br />
-                Example:<code>var name="Siddharth Manimaran"</code>
-        </p>
-        <p>
+            String is nothing but a "word or letters in english".<br />
+            It is a series of characters like "JavaScript"<br />
+            Strings are written with quotes. You can use single or double
+            quotes<br />
+            Example:<code>var name="Siddharth Manimaran"</code>
+            </p>
+            <p>
             <h4>Numbers</h4>
-                Numbers in JavaScript are just numbers.<br />
-                It can be written with decimals also we can use it like this:"1234" or "3.14"<br />
-                Example:<code>let num = 3.14</code> 
-        </p>
-        <p>
+            Numbers in JavaScript are just numbers.<br />
+            It can be written with decimals also we can use it like this:"1234" or "3.14"<br />
+            Example:<code>let num = 3.14</code>
+            </p>
+            <p>
             <h4>Booleans</h4>
             Booleans are defined as <code>true</code> or <code>false</code><br />
             Booleans are often used in conditional testing.<br>
             Example:<br />
             <code>
-                let x = 5;<br />
-                let y = 5;<br />
-                let z = 6;<br />
-                (x == y)       // Returns true<br />
-                (x == z)       // Returns false
+            let x = 5;<br />
+            let y = 5;<br />
+            let z = 6;<br />
+            (x == y)       // Returns true<br />
+            (x == z)       // Returns false
             </code>
-        </p>
-        <p>
+            </p>
+            <p>
             <h4>Array</h4>
             JS array is defined as a set of content<br />
             Array must be with a square brackets and it is separated by commas<br />
             Array indexes are zero-based, which means the first item is [0], second is [1], and so on.<br />
             Example:<br />
             <code>
-                var array = ["Rajni","kamal","Ajith","Vijay"]
+            var array = ["Rajni","kamal","Ajith","Vijay"]
             </code>
-        </p>
-        <p>
+            </p>
+            <p>
             <h4>Object</h4>
             An object is a complex data type that allows us to store collections of data.<br />
             JavaScript objects are written with curly braces {}.<br />
             Object properties are written as name:value pairs, separated by commas.<br />
             Example:<br />
             <code>
-                const car = {
-                    carName:"Mahindra"
-                    carModel:"Thar"
-                    carType:"SUV"
-                };
+            const car = {
+            carName:"Mahindra"
+            carModel:"Thar"
+            carType:"SUV"
+            };
             </code>
-
-        </p>
-        <p>
+            </p>
+            <p>
             <h4>Null</h4>
             In JavaScript, null is a special value that represents empty or unknown value. <br />
             Example:<br />
             <code>
-                const number = null;
+            const number = null;
             </code>
-
-
-        </p>
-        <p>
+            </p>
+            <p>
             <h4>Undefined</h4>
             The undefined data type represents value that is not assigned.<br />
             A variable without a value, has the value undefined.<br />
             Example:<br />
             <code>
-                let car;<br />
-                console.log(car);    // its undefined
+            let car;<br />
+            console.log(car);    // its undefined
             </code>
-
-        </p>
-      </div>
-      <div class="variables">
-          <h3>Variables</h3>
-          <p>
-              Variables are containers for storing data (values).<br />
-              There are 3 ways to declare a JavaScript variable:<br />
-              1.var<br />
-              2.let<br />
-              3.const<br />
-          </p>
-          <p>
-              <h4>var</h4>
-               var is used in the older versions of JavaScript<br />
-               var is function scoped<br />
-               Example:<br />
-               <code>var name="Sid";</code>
-          </p>
-          <p>
-              <h4>
-                  let
-              </h4>
-              let is the new way of declaring variables starting ES6 (ES2015).<br />
-              Variables defined with let cannot be Redeclare.<br />
-              Variables defined with let must be Declared before use.<br />
-              let is block scoped.<br />
-              Some browsers that do not support let.<br />
-              Example:<br />
-              <code>let name ="Sid"; </code>
-
-
-          </p>
-          <p>
-              <h4>const</h4>
-              The const keyword was introduced in ES6 (2015).<br />
-              Like let,const also  cannot be Redeclare and Reassigned<br />
-              const is block Scope.<br />
-              Example:<br />
-              <code>const num ="28071998"; </code>
-
-            
             </p>
-          
-
-      </div>
-      <div class="operators">
-          <h3>Operators</h3>
-          <p>
-              In Js operators are a special symbols used to perform operations on operands.<br>
-               For example:<br />
-              <code>2 = 3;  //5</code> 
-
-
-          </p>
-          <h4>Types of Js operators</h4>
+        </div>
+        <div class="variables">
+            <h3>Variables</h3>
+            <p>
+                Variables are containers for storing data (values).<br />
+                There are 3 ways to declare a JavaScript variable:<br />
+                1.var<br />
+                2.let<br />
+                3.const<br />
+            </p>
+            <p>
+            <h4>var</h4>
+            var is used in the older versions of JavaScript<br />
+            var is function scoped<br />
+            Example:<br />
+            <code>var name="Sid";</code>
+            </p>
+            <p>
+            <h4>
+                let
+            </h4>
+            let is the new way of declaring variables starting ES6 (ES2015).<br />
+            Variables defined with let cannot be Redeclare.<br />
+            Variables defined with let must be Declared before use.<br />
+            let is block scoped.<br />
+            Some browsers that do not support let.<br />
+            Example:<br />
+            <code>let name ="Sid"; </code>
+            </p>
+            <p>
+            <h4>const</h4>
+            The const keyword was introduced in ES6 (2015).<br />
+            Like let,const also cannot be Redeclare and Reassigned<br />
+            const is block Scope.<br />
+            Example:<br />
+            <code>const num ="28071998"; </code>
+            </p>
+        </div>
+        <div class="operators">
+            <h3>Operators</h3>
+            <p>
+                In Js operators are a special symbols used to perform operations on operands.<br>
+                For example:<br />
+                <code>2 = 3;  //5</code>
+            </p>
+            <h4>Types of Js operators</h4>
             <ol>
-              <li>Assignment Operators</li>
-              <li>Arithmetic Operators</li>
-              <li>Comparison Operators</li>
-              <li>Logical Operators</li>
-              <li>Bitwise Operators</li>
+                <li>Assignment Operators</li>
+                <li>Arithmetic Operators</li>
+                <li>Comparison Operators</li>
+                <li>Logical Operators</li>
+                <li>Bitwise Operators</li>
             </ol>
-          <p>
-          <h4>Assignment Operators</h4>
-          Assignment operators are used to assign values to variables.<br>
-          <table>
-              <tr>
-                  <th>Operators</th>
-                  <th>Name</th>
-                  <th>Examples</th>
-              </tr>
-              <tr>
-                  <td><code>=</code></td>
-                  <td>Assignment operator</td>
-                  <td><code>const x = 10;  </code></td>
-              </tr>
-              <tr>
-                  <td><code>+=</code></td>
-                  <td>Addition operator</td>
-                  <td><code>a += 5;  //a = a + 5  </code></td>
-              </tr>
-              <tr>
-                  <td><code>-=</code></td>
-                  <td>Subtraction operator</td>
-                  <td><code>a -= 5;  //a = a - 5  </code></td>
-              </tr>
-              <tr>
-                  <td><code>*=</code></td>
-                  <td>Multiplication operator</td>
-                  <td><code>a *= 5;  //a = a * 5  </code></td>
-              </tr>
-              <tr>
-                  <td><code>*=</code></td>
-                  <td>Division operator</td>
-                  <td><code>a /= 5;  //a = a / 5  </code></td>
-              </tr>
-              <tr>
-                  <td><code>*=</code></td>
-                  <td>Remainder operator</td>
-                  <td><code>a %= 5;  //a = a % 5  </code></td>
-              </tr>
-          </table></p>
-          <h4>Comparison Operators</h4>
-          <p>
-          Comparison operators compare two values and return a boolean value, either true or false.
-          <table>
-              <tr>
-                <th>Operators</th>
-                <th>Description</th>
-                <th>Example</th>
-              </tr>
-              <tr>
-                  <td><code>==</code></td>
-                  <td>Equal to: returns true if the operands are equal</td>
-                  <td><code>x == y </code></td>
-              </tr>
-              <tr>
-                  <td><code>!=</code></td>
-                  <td>	Not equal to: returns true if the operands are not equal</td>
-                  <td><code>x != y </code></td>
-              </tr>
-              <tr>
-                  <td><code>===</code></td>
-                  <td>Strict equal to: true if the operands are equal and of the same type</td>
-                  <td><code>x === y </code></td>
-              </tr>
-              <tr>
-                  <td><code>!==</code></td>
-                  <td>	Strict not equal to: true if the operands are equal but of different type or not equal at all</td>
-                  <td><code>x !== y </code></td>
-              </tr>
-              <tr>
-                  <td><code>&gt;</code></td>
-                  <td>Greater than: true if left operand is greater than the right operand</td>
-                  <td><code>x &gt; y </code></td>
-              </tr>
-              <tr>
-                  <td><code>&gt;=</code></td>
-                  <td>	Greater than or equal to: true if left operand is greater than or equal to the right operand</td>
-                  <td><code>x &gt;= y </code></td>
-              </tr>
-              <tr>
-                  <td><code>&lt;</code></td>
-                  <td>Less than: true if the left operand is less than the right operand</td>
-                  <td><code>x &lt; y</code></td>
-              </tr>
-              <tr>
-                  <td><code>&lt;=</code></td>
-                  <td>	Less than or equal to: true if the left operand is less than or equal to the right operand</td>
-                  <td><code>x &lt;= y</code></td>
-              </tr>
-          </table>
-
-          </p>
-          <p>
-              Logical operators perform logical operations and return a boolean value, either true or false
-              <table>
+            <h4>Assignment Operators</h4>
+            <p>
+                Assignment operators are used to assign values to variables.<br>
+            <table>
                 <tr>
-                <th>Operators</th>
-                <th>Description</th>
-                <th>Example</th>
-              </tr>
-              <tr>
-                  <td><code>&&</code></td>
-                  <td>Logical AND: true if both the operands are true, else returns false</td>
-                  <td><code>x && y</code></td>
-              </tr>
-               <tr>
-                  <td><code>||</code></td>
-                  <td>Logical OR: true if either of the operands is true; returns false if both are false</td>
-                  <td><code>x || y</code></td>
-              </tr>
-              <tr>
-                  <td><code>!</code></td>
-                  <td>Logical NOT: true if the operand is false and vice-versa.</td>
-                  <td><code>!x</code></td>
-              </tr>
-
-              </table>
-          </p>
-          <p>
-              <h4>
-                  Bitwise operators
-              </h4>
-              Bitwise operators perform operations on binary representations of numbers.
-              <table>
-                  <tr>
-                      <th>operator</th>
-                      <th>Description</th>
-
-                  </tr>
-                  <tr>
-                      <td><code>&</code></td>
-                      <td>AND</td>
-                  </tr>
-                  <tr>
-                      <td><code>|</code></td>
-                      <td>OR</td>
-                  </tr>
-                  <tr>
-                      <td><code>^</code></td>
-                      <td>XOR</td>
-                  </tr>
-                  <tr>
-                      <td><code>~</code></td>
-                      <td>NOT</td>
-                  </tr>
-                  <tr>
-                      <td><code>&lt;&lt;</code></td>
-                      <td>Left Shift</td>
-                  </tr>
-                  <tr>
-                      <td><code>&gt;&gt;</code></td>
-                      <td>Right Shift</td>
-                  </tr>
-                  <tr>
-                      <td><code>&gt;&gt;&gt;</code></td>
-                      <td>Zero-fil right shift</td>
-                  </tr>
-              </table>
+                    <th>Operators</th>
+                    <th>Name</th>
+                    <th>Examples</th>
+                </tr>
+                <tr>
+                    <td><code>=</code></td>
+                    <td>Assignment operator</td>
+                    <td><code>const x = 10;  </code></td>
+                </tr>
+                <tr>
+                    <td><code>+=</code></td>
+                    <td>Addition operator</td>
+                    <td><code>a += 5;  //a = a + 5  </code></td>
+                </tr>
+                <tr>
+                    <td><code>-=</code></td>
+                    <td>Subtraction operator</td>
+                    <td><code>a -= 5;  //a = a - 5  </code></td>
+                </tr>
+                <tr>
+                    <td><code>*=</code></td>
+                    <td>Multiplication operator</td>
+                    <td><code>a *= 5;  //a = a * 5  </code></td>
+                </tr>
+                <tr>
+                    <td><code>*=</code></td>
+                    <td>Division operator</td>
+                    <td><code>a /= 5;  //a = a / 5  </code></td>
+                </tr>
+                <tr>
+                    <td><code>*=</code></td>
+                    <td>Remainder operator</td>
+                    <td><code>a %= 5;  //a = a % 5  </code></td>
+                </tr>
+            </table>
             </p>
-      </div>
+            <h4>Comparison Operators</h4>
+            <p>
+                Comparison operators compare two values and return a boolean value, either true or false.
+            <table>
+                <tr>
+                    <th>Operators</th>
+                    <th>Description</th>
+                    <th>Example</th>
+                </tr>
+                <tr>
+                    <td><code>==</code></td>
+                    <td>Equal to: returns true if the operands are equal</td>
+                    <td><code>x == y </code></td>
+                </tr>
+                <tr>
+                    <td><code>!=</code></td>
+                    <td> Not equal to: returns true if the operands are not equal</td>
+                    <td><code>x != y </code></td>
+                </tr>
+                <tr>
+                    <td><code>===</code></td>
+                    <td>Strict equal to: true if the operands are equal and of the same type</td>
+                    <td><code>x === y </code></td>
+                </tr>
+                <tr>
+                    <td><code>!==</code></td>
+                    <td> Strict not equal to: true if the operands are equal but of different type or not equal at all
+                    </td>
+                    <td><code>x !== y </code></td>
+                </tr>
+                <tr>
+                    <td><code>&gt;</code></td>
+                    <td>Greater than: true if left operand is greater than the right operand</td>
+                    <td><code>x &gt; y </code></td>
+                </tr>
+                <tr>
+                    <td><code>&gt;=</code></td>
+                    <td> Greater than or equal to: true if left operand is greater than or equal to the right operand
+                    </td>
+                    <td><code>x &gt;= y </code></td>
+                </tr>
+                <tr>
+                    <td><code>&lt;</code></td>
+                    <td>Less than: true if the left operand is less than the right operand</td>
+                    <td><code>x &lt; y</code></td>
+                </tr>
+                <tr>
+                    <td><code>&lt;=</code></td>
+                    <td> Less than or equal to: true if the left operand is less than or equal to the right operand</td>
+                    <td><code>x &lt;= y</code></td>
+                </tr>
+            </table>
+            </p>
+            <h4>Logical Operators</h4>
+            <p>
+                Logical operators perform logical operations and return a boolean value, either true or false
+            <table>
+                <tr>
+                    <th>Operators</th>
+                    <th>Description</th>
+                    <th>Example</th>
+                </tr>
+                <tr>
+                    <td><code>&&</code></td>
+                    <td>Logical AND: true if both the operands are true, else returns false</td>
+                    <td><code>x && y</code></td>
+                </tr>
+                <tr>
+                    <td><code>||</code></td>
+                    <td>Logical OR: true if either of the operands is true; returns false if both are false</td>
+                    <td><code>x || y</code></td>
+                </tr>
+                <tr>
+                    <td><code>!</code></td>
+                    <td>Logical NOT: true if the operand is false and vice-versa.</td>
+                    <td><code>!x</code></td>
+                </tr>
+            </table>
+            </p>
+            <h4>
+                Bitwise operators
+            </h4>
+            <p>
+                Bitwise operators perform operations on binary representations of numbers.
+            <table>
+                <tr>
+                    <th>operator</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td><code>&</code></td>
+                    <td>AND</td>
+                </tr>
+                <tr>
+                    <td><code>|</code></td>
+                    <td>OR</td>
+                </tr>
+                <tr>
+                    <td><code>^</code></td>
+                    <td>XOR</td>
+                </tr>
+                <tr>
+                    <td><code>~</code></td>
+                    <td>NOT</td>
+                </tr>
+                <tr>
+                    <td><code>&lt;&lt;</code></td>
+                    <td>Left Shift</td>
+                </tr>
+                <tr>
+                    <td><code>&gt;&gt;</code></td>
+                    <td>Right Shift</td>
+                </tr>
+                <tr>
+                    <td><code>&gt;&gt;&gt;</code></td>
+                    <td>Zero-fil right shift</td>
+                </tr>
+            </table>
+            </p>
+        </div>
+        <div class="Functions">
+            <h3>Function</h3>
+            <p>
+                Function is a block of code that performs a specific task.<br>
+                It is very useful to dividing a complex problem into smaller chunks<br> makes our program easy to
+                understand and reusable.<br>
+            </p>
+            <h4>JavaScript Function Syntax</h4>
+            <p>The function is declared using a <code>function</code> keyword, followed by a name, followed by
+                parentheses ().<br>
+                The parentheses may include parameter names separated by commas<br>
+                The body of the function is written within <code>{}</code><br>
+                Example:<br>
+                <code>function welcome(parameter1,parameter2, parameter3){<br>
+               console.log("hello there");<br>}</code>
+            </p>
+            <h4>Function Returns</h4>
+            <p>The return statement can be used to return the value to a function call<br>
+                The return statement denotes that the function has ended. Any code after return is not executed.<br>
+                Example:<br><code>
+               function add(num1,num2){<br>
+               num1+num2;<br>
+               return result;<br>
+               }<br>
+               let x= add(a,b);</code>
+            </p>
+            <h3> Events</h3>
+            <p>Events are "things" that happen to HTML elements.<br>
+                HTML allows event handler attributes, with JavaScript code, to be added to HTML elements.<br>
+                Example:<br><code>
+               &lt;button onclick="displayDate()"&gt;The time is?&lt;/button&gt;<br>
+               </code>
+            </p>
+            <p>Some Events:<br>
+                onchange-An HTML element has been changed<br>
+                onclick-The user clicks an HTML element<br>
+                onmouseover-The user moves the mouse over an HTML element<br>
+                onmouseout-The user moves the mouse away from an HTML element<br>
+                onkeydown-The user pushes a keyboard key<br>
+                onload-The browser has finished loading the page<br>
+            </p>
+        </div>
+        <div>
+            <h3>Arrow Function:</h3>
+            <p>ES6 arrow functions provide an alternative way to write a shorter syntax compared to the function
+                expression.</p>
+            <p>Example:&nbsp;</p>
+            <p>greetigs = () =&gt; {<br />return&nbsp;"Welcome";<br />}</p>
+            <p><strong>This works only if the function has only one statement.</strong></p>
+            <p><strong>JS Errors:</strong></p>
+            <p>Errors can be coding errors made by the programmer, errors due to wrong input, and other unforeseeable
+                things.</p>
+            <p>Errors:</p>
+            <p>1.Try</p>
+            <p>2.Catch</p>
+            <p>3.Throw</p>
+            <p>4.Finally</p>
+            <h4>Try and Catch:</h4>
+            <p>The&nbsp;<strong><code>try</code></strong>&nbsp;statement allows us to define a block of code to be
+                tested for errors while it is being executed.</p>
+            <p>The&nbsp;<strong><code>catch</code></strong>&nbsp;statement allows you to define a block of code to be
+                executed if an error occurs in the try block.</p>
+            <p>Example:</p>
+            <p>try {<br /><em>Block of code to try<br /></em>}<br />catch(<em>err</em>) {<br /><em>Block of code to
+                    handle errors<br /></em>}</p>
+            <h4>Throws Errors:</h4>
+            <p>The<strong>&nbsp;<code>throw</code></strong>&nbsp;statement allows you to create a custom error.</p>
+            <p>Example:</p>
+            <p>throw&nbsp;"Too big"; // throw a text<br />throw&nbsp;500; // throw a number</p>
+            <h4>Finally:</h4>
+            <p>The&nbsp;<code>finally</code>&nbsp;statement lets you execute code, after try and catch, regardless of
+                the result.</p>
+            <p>Example:</p>
+            <p>try&nbsp;{<br /><em>Block of code to&nbsp;try<br /></em>}<br />catch(<em>err</em>) {<br /><em>Block of
+                    code to handle errors<br /></em>}<br />finally&nbsp;{<br /><em>Block of code to be executed
+                    regardless of the&nbsp;try&nbsp;/&nbsp;catch&nbsp;result<br /></em>}</p>
+            <h3>Scope:</h3>
+            <p>There are three types of scope:</p>
+            <p>1.Block Scope</p>
+            <p>2.Function Scope</p>
+            <p>3.Global Scope</p>
+            <h4>Block Scope:</h4>
+            <p>ES6 introduced two important new JavaScript
+                keywords:&nbsp;<code>let</code>&nbsp;and&nbsp;<code>const</code>.</p>
+            <p>These two keywords provide&nbsp;<strong>Block Scope</strong>&nbsp;in JavaScript.</p>
+            <p>Variables declared inside a { } block cannot be accessed from outside the block.</p>
+            <p>Variables declared with the&nbsp;<code>var</code>&nbsp;keyword can NOT have block scope.</p>
+            <p>Variables declared inside a { } block can be accessed from outside the block.</p>
+            <p>Example:</p>
+            <p>{<br />let&nbsp;x =&nbsp;2;<br />} // x can NOT be used here</p>
+            <p>{<br />var&nbsp;x =&nbsp;2;<br />} // x CAN be used here</p>
+            <h4>Local Scope:</h4>
+            <p>Variables declared within a JavaScript function, become&nbsp;<strong>LOCAL</strong>&nbsp;to the function.
+            </p>
+            <p>They can only be accessed from within the function.</p>
+            <p>Example:</p>
+            <p>// code here can NOT use carName<br /><br />function&nbsp;myFunction() {<br />let&nbsp;carName
+                =&nbsp;"Volvo";<br />// code here CAN use carName<br />}<br /><br />// code here can NOT use carName</p>
+            <h4>Global Scope:</h4>
+            <p>A variable declared outside a function becomes&nbsp;<strong>GLOBAL</strong>.</p>
+            <p>All scripts and functions on a web page can access it.&nbsp;</p>
+            <p>Example:</p>
+            <p>let&nbsp;carName =&nbsp;"Volvo";<br />// code here can use carName<br /><br />function&nbsp;myFunction()
+                {<br />// code here can also use carName<br />}</p>
+            <h3>This Keyword:</h3>
+            <p>The JavaScript&nbsp;<code>this</code>&nbsp;keyword refers to the object it belongs to.</p>
+            <div>
+                <p>It has different values depending on where it is used:</p>
+                <ul>
+                    <li>In a method,&nbsp;<code>this</code>&nbsp;refers to the&nbsp;<strong>owner object</strong>.</li>
+                    <li>Alone,&nbsp;<code>this</code>&nbsp;refers to the&nbsp;<strong>global object</strong>.</li>
+                    <li>In a function,&nbsp;<code>this</code>&nbsp;refers to the&nbsp;<strong>global object</strong>.
+                    </li>
+                    <li>In a function, in strict mode,&nbsp;<code>this</code>&nbsp;is&nbsp;<code>undefined</code>.</li>
+                    <li>In an event,&nbsp;<code>this</code>&nbsp;refers to the&nbsp;<strong>element</strong>&nbsp;that
+                        received the event.</li>
+                    <li>Methods like&nbsp;<code>call()</code>, and&nbsp;<code>apply()</code>&nbsp;can
+                        refer&nbsp;<code>this</code>&nbsp;to&nbsp;<strong>any object</strong>.</li>
+                </ul>
+                <p>Example:</p>
+                <div>const&nbsp;<strong>person</strong>&nbsp;= {<br /> firstName:&nbsp;"John",<br /> lastName
+                    :&nbsp;"Doe",<br /> id :&nbsp;5566,<br /> fullName :&nbsp;function() {<br />
+                    return&nbsp;<strong>this</strong>.firstName&nbsp;+&nbsp;"
+                    "&nbsp;+&nbsp;<strong>this</strong>.lastName;<br /> }<br />};</div>
+            </div>
+        </div>
     </div>
-  </body>
+</body>
+
 </html>
